@@ -32,3 +32,8 @@ Alternatively you can specify a date an time in the following format `YYYY-MM-DD
 ```
 ./bin/hcalc --upgrade-date-time "2024-05-20 11:00:00"
 ```
+
+Finally, you can adjust the block window over which to calculate the block production rate, be careful not to include a block window with significant validator downtime becuase it will skew the result of the calculation. Either use a very large window (5,000,000+ blocks) or a short window that covers a period of time with no downtime.
+```
+./bin/hcalc --block-window 5000
+```
