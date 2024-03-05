@@ -11,7 +11,6 @@ Clone the repo and build the binary.
 git clone https://github.com/ed-commodum/vega-upgrade-height-calc
 cd vega-upgrade-height-calc
 make build
-
 ```
 
 By default the tool will look for a cometBFT RPC at localhost:26657, so you can run it locally on the host of your Vega node like so:
