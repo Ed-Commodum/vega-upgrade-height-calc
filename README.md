@@ -18,7 +18,7 @@ By default the tool will look for a cometBFT RPC at localhost:26657, so you can 
 ./bin/hcalc
 ```
 
-If you are not running it locally you will need to specify a remote cometBFT RPC address. The address in the below command is publicly avilable at the time of writing, it is also included in the Makefile so you can simply issue `make run` to run it.
+If you are not running it locally you will need to specify a remote cometBFT RPC address. The address in the below command is a publicly avilable MAINNET endpoint at the time of writing.
 ```
 ./bin/hcalc --rpc-addr http://164.92.138.136:26657
 ```
